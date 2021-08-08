@@ -4,7 +4,7 @@
 
   <groupId>com.vinay.cal</groupId>
   <artifactId>VinayCalculator</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.1</version>
   <packaging>jar</packaging>
 
   <name>VinayCalculator</name>
@@ -22,5 +22,11 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+<distributionManagement>
+  <repository>
+    <id>releases</id>
+    <url>http://3.109.154.9:8081/nexus/content/repositories/releases</url>
+  </repository>
+</distributionManagement>
 </project>
 
